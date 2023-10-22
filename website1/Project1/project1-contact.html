@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"href="cssdavid.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="foto's/1.png">
+  <script src="https://kit.fontawesome.com/a9c0d7916f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Pagina Logo-->
+<a href="index.html" class="logo"><img src="foto's/1.png" alt="logo"></a>
+
+<!--Navigatie-->
+<div class="topnav">
+  <div class="dropdown">
+    <a href="hobbyeninteresses.html">hobby en interesses</a> 
+  </div>  
+  <div class="dropdown">
+    <a href="project.html" class="dropbtn"> project</a>
+    <div class="dropdown-content"> 
+      <a href="project1.html">project 1</a>
+    </div> 
+  </div>
+  <a href="curriculumvitae.html">curriculum vitae</a> 
+  <a href="contact.html">contact</a>
+</div>
+
+<!--Foto-->
+
+<img src="foto's/Startpagina.jpg" alt="Foto developer">
+<div class="text">
+    <h1>Heeft u vragen of wilt u meer informatie ontvangen? Ik sta klaar om u te helpen!</h1>
+    <p>Vul het onderstaande formulier in en ik neem zo snel mogelijk contact met u op. U kunt ook direct een bericht naar mij sturen op mijn <a href="https://be.linkedin.com/in/david-waligora-244896182">LinkedIn</a> pagina.</p>
+    <p>Ik kijk ernaar uit om van u te horen!</p>
+</div>
+
+<!--formulier-->    
+<div class="text" id="formtekst">
+<form action="https://tm-statweb.be/sendmail.php" method="post">
+         <div>
+            <h1 style="color: white">Contactformulier</h1>
+        </div><div>   
+            <label for="Voornaam">Voornaam</label>
+        </div><div>
+            <input type="text" name="Voornaam" id="Voornaam" placeholder="Vul hier je naam in" required>
+        </div><div>
+            <label for="Familienaam">Familienaam</label>
+        </div><div>
+            <input type="text" name="Familienaam" id="familienaam" placeholder="Vul hier je achternaam in" required>
+        </div><div>
+          <label for="mailadres">Mailadres</label>
+      </div><div>
+          <input type="email" name="email" id="e-mailadres" placeholder="Vul hier je e-mailadres in" required>
+      </div><div>
+        <label for="Onderwerp">Onderwerp</label>
+    </div><div>
+        <input type="text" name="Onderwerp" id="onderwerp" placeholder="Vul hier een onderwerp in" required>
+    </div><div>
+            <label for="mail">Mail</label>
+        </div><div>
+            <textarea id="mail" name="mail" placeholder="Vul hier je mail in" style="height:200px" required></textarea>
+        </div><div>
+          <input type="hidden" name="studentemail" value="r0989841@student.thomasmore.be">
+      </div><div class="knop-container">
+          <input type="submit" value="Versturen">
+        </div>
+</div>
+</form>
+    <!--onderkant website-->
+
+  <div class="text">
+    <hr>
+    <div class="row">
+      <div class="column">
+
+            <h2>Info</h2>
+              <p>
+                Privacy <br>
+                Gebruiksvoorwaarden <br> 
+                Cookies <br>
+                Cookie-instellingen beheren <br>
+              </p>
+              
+            </div>
+            
+            <div class="column" id="rechts">
+              <h2>Contact</h2>
+              <p><a href="https://be.linkedin.com/in/david-waligora-244896182"><i class='fab fa-linkedin'></i></a></p>
+              <p><a href="contact.html"><i class="fa-solid fa-envelope"></i></a></p>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
