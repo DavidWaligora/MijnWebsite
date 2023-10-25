@@ -25,5 +25,18 @@
     align-items: center;
 }
 
-
-
+nav {
+    margin-bottom: 50px;
+}
+footer{
+    margin-top: 50px;
+}
+@media screen and (width <= 700px){
+    nav {
+        margin-bottom: 10px;
+    }
+    footer {
+        margin-bottom: 10px;
+    }
+}
+    
