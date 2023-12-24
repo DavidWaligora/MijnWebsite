@@ -1,8 +1,9 @@
 
-.bg-image{
+.bg-image {
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    background-image: url("foto's/annie-spratt-QckxruozjRg-unsplash.jpg");
+    background-size: cover;
     filter: brightness(0.6);
     position: absolute;
     top: 0;
