@@ -1,0 +1,33 @@
+/* CSS Document */
+
+
+a:link {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+
+/***********************************************/
+
+
+/* Eigen stijl                                 */
+
+
+/***********************************************/
+
+
+
+
+.imgHover:hover {
+    opacity: 0.6;
+}
