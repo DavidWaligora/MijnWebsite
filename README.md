@@ -1,2 +1,2 @@
-# WebsiteProject2
+# MijnWebsite
 davidwaligora.com
